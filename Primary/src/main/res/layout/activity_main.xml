@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/pipe_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/wifi_pipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="WiFi Pipe"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/bt_pipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BT Pipe"
+            android:textSize="12dp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/subflow_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/lte_subflow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="LTE Subflow"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:id="@+id/wifi_subflow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WiFi Subflow"
+            android:textSize="12dp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/rip_text"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lines="1"
+        android:maxLines="1"></EditText>
+
+    <EditText
+        android:id="@+id/num_text"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lines="1"
+        android:maxLines="1"></EditText>
+
+    <EditText
+        android:id="@+id/hip_text"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"></EditText>
+
+<!--    <EditText-->
+<!--        android:id="@+id/url_text"-->
+<!--        android:layout_width="229dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:lines="1"-->
+<!--        android:maxLines="1"></EditText>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/primary_hotspot_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Open Hotspot on Primary" />-->
+
+    <Button
+        android:id="@+id/primary_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Run Primary" />
+
+<!--    <Button-->
+<!--        android:id="@+id/http_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Run HTTP" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/dl_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="HTTP Download" />-->
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="bottom"
+        android:scrollbars="vertical"
+        android:text="Welcome to MPBond Primary!"
+        android:textSize="20dp" />
+</LinearLayout>

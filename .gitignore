@@ -1,0 +1,22 @@
+# C++
+/server/*.o
+/server/*.ko
+/server/Module.symvers
+/server/*.cmd
+/server/modules.order
+/server/dmm_proxy
+/server/.tmp_versions
+/server/log/
+/server/*.txt
+/server/*.out
+/server/*.dat
+
+# Android Studio
+*.iml
+.idea/
+.gradle/
+local.properties
+build/
+.externalNativeBuild
+/*/build
+/*/*.iml

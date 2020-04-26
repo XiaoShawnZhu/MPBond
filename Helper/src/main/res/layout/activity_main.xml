@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/pipe_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/wifi_pipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="12dp"
+            android:text="WiFi Pipe" />
+        <RadioButton
+            android:id="@+id/bt_pipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="BT Pipe" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/subflow_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/lte_subflow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="12dp"
+            android:text="LTE Subflow" />
+        <RadioButton
+            android:id="@+id/wifi_subflow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="WiFi Subflow" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/id_text"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:maxLines="1">
+    </EditText>
+
+    <EditText
+        android:id="@+id/rip_text"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:maxLines="1">
+    </EditText>
+
+    <Button
+        android:id="@+id/helper_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Run Helper" />
+
+<!--    <Button-->
+<!--        android:id="@+id/helper_hotspot_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Connect Hotspot on Primary" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/http_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Run HTTP" />-->
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:scrollbars="vertical"
+        android:text="Welcome to MPBond Helper!"
+        android:textSize="20dp"
+        android:gravity="bottom"/>
+</LinearLayout>
