@@ -11,7 +11,7 @@
 
 MPBond consists of primary, helper and proxy parts.  
 
-When you use WearMan in any publications, please refer our work in the following format.
+When you use MPBond in any publications, please refer our work in the following format.
 ```
 Xiao Zhu, Jiachen Sun, Xumiao Zhang, Yihua Ethan Guo, Feng Qian, and Z.Morley Mao. 
 2020. MPBond: Efficient Network-level Collaboration Among Personal Mobile Devices. 
